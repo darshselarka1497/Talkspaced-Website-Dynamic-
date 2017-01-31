@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Talkspaced,Inspiring minds of tomorrow">
+  <meta name="keywords" content="Talkspaced,talkspaced">
+  <meta name="author" content="talkspaced">
+
+    <title>Talk[SpaceD]</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.png' />
+    <link href="style.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    
+	<link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=NTR' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Talk<span>[SpaceD]</span></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#mainCarousel">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#explore">Explore</a>
+                    </li>
+                    <li>
+                        <a href="#blog">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Be A Speaker</a>
+                    </li>
+                    <li>
+                        <a href="#subscribe">Subscribe To Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    
+    <style>
+    
+    	.navbar-default {
+    		background-color: transparent;
+    		border-color: transparent;
+    		-webkit-transition: all 0.5s ease 0s;
+  			-o-transition: all 0.5s ease 0s;
+  			transition: all 0.5s ease 0s;
+    	}
+    	
+    	.navbar-nav { 
+    		margin-top: 40px;
+    		float: right;
+    	}
+    	
+    	@media screen and (max-width: 767px) {
+    	.navbar-nav {
+    		float: none;
+    		text-align: center;
+    		background: rgba(25, 33, 60, 0.5);
+    	}
+    	}
+    	
+    	.navbar-default .navbar-brand {
+    		margin-top: 40px;
+    		font-size: 28px;
+    		font-family: 'Righteous', cursive;
+    		color: #fff;
+    		letter-spacing: 1px;
+    		-moz-transition:color .5s ease-in;
+   			-o-transition:color .5s ease-in;
+    		-webkit-transition:color .5s ease-in;
+    	}
+    	
+    	.navbar-default .navbar-brand span {
+    		color: #ff0000;
+    		-moz-transition:color .5s ease-in;
+   			-o-transition:color .5s ease-in;
+    		-webkit-transition:color .5s ease-in;
+    	}
+    	
+    	@media screen and (max-width: 400px) {
+    	.navbar-default .navbar-brand {
+    		font-size: 22px;
+    	}
+    	}
+    	
+    	.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand span:hover {
+    		color: #ff0000;
+    	}
+    	
+    	.navbar-default .navbar-nav>li>a {
+    		color: #fff;
+    		font-size: 14px;
+    		font-family: 'Noto Sans', sans-serif;
+    		text-transform: uppercase;
+    		letter-spacing: 1px;
+    	}
+    	
+    	.navbar-default .navbar-nav>li>a:hover {
+    		color: #ff0000;
+    	}
+    	
+    	.navbar-default .navbar-nav>li>a:focus {
+    		color: #ff0000;
+    	}
+    	
+    	.navbar-default .navbar-toggle {
+    		margin-top: 40px;
+    		border: none;
+    	}
+    	
+		.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+			background: none;
+		}
+    	
+    	.navbar-default .navbar-toggle .icon-bar {
+    		height: 4px;
+    		width: 28px;
+    		background: #ff0000;
+		}
+    	
+    	.navbar-default.shrink {
+    		background:rgba(255,0, 0, 0.1)
+		}
+		
+		.navbar-default.shrink .navbar-nav {
+			margin-top: 20px;
+			margin-bottom: 10px;
+		}
+		
+		.navbar-default.shrink .navbar-brand {
+			margin-top: 20px;
+		}
+		
+		.navbar-default.shrink .navbar-toggle {
+			margin-top: 25px;
+		}
+
+    
+    </style>
+
+    <!-- Full Page Image Background Carousel Header -->
+    <header id="mainCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#mainCarousel" data-slide-to="1"></li>
+            <li data-target="#mainCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+            <div class="slider_overlay"></div>
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('images/cover3.jpg');">
+                  <!--   <div class="hero">
+                        <hgroup>
+                            <h1>Welcome to Talk[spaceD]</h1>
+                            <h3>Shaping Minds of Tomorrow.</h3>
+                        </hgroup>
+                        <button class="btn btn-hero btn-lg" role="button">See all features</button>
+                    </div> -->
+                </div>
+            </div>
+            <div class="item">
+
+            <div class="slider_overlay"></div>
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('images/cover1.jpg');">
+                </div>
+            </div>
+            <div class="item">    
+            <div class="slider_overlay"></div>
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('images/cover2.jpg');">
+        
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#mainCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#mainCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </header>
+    
+    <div id="about">
+    	<div class="container">
+    		<div class="text">
+    			<h2>About Us</h2>
+    			<hr>
+    			<p>
+    				TalkspaceD is a spirited, powerful driving force of motivation to help you
+
+through the rollercoaster ride that we call life. We firmly believe that all human
+
+beings have great capacities that, when properly motivated and supported, can
+
+be mobilized to create a lasting impact on our society.
+
+We provide our audiences with what they actually need - A blended mixture of
+
+motivation, inspiration and entertainment. This is intended to equip them with
+
+the necessary tools to be better prepared to handle the hurdles life throws at
+
+them. If the hurdles are like boulders in the river of life, we provide the push to
+
+develop the willingness to not succumb to those ‘boulders’ and keep flowing with
+
+the river of life. We also propagate motivation by way of supporting and
+
+promoting new talents in any way we can.
+    			</p>
+			</div>
+
+        <div class="col-md-6">
+            <!-- begin panel group -->
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                
+                <!-- panel 1 -->
+                <div class="panel panel-default">
+                    <!--wrap panel heading in span to trigger image change as well as collapse -->
+                    <span class="side-tab" data-target="#tab1" data-toggle="tab" role="tab" aria-expanded="false">
+                        <div class="panel-heading" role="tab" id="headingOne"data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h4 class="panel-title">Our Aim</h4>
+                        </div>
+                    </span>
+                    
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                        <!-- Tab content goes here -->
+                        <p>TalkspaceD is a spirited, powerful driving force of motivation to help you
+
+through the rollercoaster ride that we call life. We firmly believe that all human
+
+beings have great capacities that, when properly motivated and supported, can
+
+be mobilized to create a lasting impact on our society.
+
+We provide our audiences with what they actually need - A blended mixture of
+
+motivation, inspiration and entertainment. This is intended to equip them with
+
+the necessary tools to be better prepared to handle the hurdles life throws at
+
+them. If the hurdles are like boulders in the river of life, we provide the push to
+
+develop the willingness to not succumb to those ‘boulders’ and keep flowing with
+
+the river of life. We also propagate motivation by way of supporting and
+
+promoting new talents in any way we can.</p>
+                        </div>
+                    </div>
+                </div> 
+                <!-- / panel 1 -->
+                
+                <!-- panel 2 -->
+                <div class="panel panel-default">
+                    <!--wrap panel heading in span to trigger image change as well as collapse -->
+                    <span class="side-tab" data-target="#tab2" data-toggle="tab" role="tab" aria-expanded="false">
+                        <div class="panel-heading" role="tab" id="headingTwo" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <h4 class="panel-title collapsed">How Will It Operate?</h4>
+                        </div>
+                    </span>
+
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                        <!-- Tab content goes here -->
+                        <p>We work with a simplistic approach. We try to bring to you the views of informed
+
+men, the knowledge of learned men and the sagacity of wise men, and the
+
+perspective of a common man. This comes to you in the form of interviews,
+
+Facebook live sessions and videos about how the common man feels.
+
+We have designed events that are fully equipped to motivate you in a very relaxing
+
+way. This is the aim of TalkspaceD, a society that is motivated and full of stimulated,
+
+active, energetic, enthusiastic, happy people with a sense of purpose while being
+
+void of feelings like feeling uninterested, listless, dissatisfied, unresponsive, or even
+
+depressed.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- / panel 2 -->
+                
+                <!--  panel 3 -->
+                <div class="panel panel-default">
+                    <!--wrap panel heading in span to trigger image change as well as collapse -->
+                    <span class="side-tab" data-target="#tab3" data-toggle="tab" role="tab" aria-expanded="false">
+                        <div class="panel-heading" role="tab" id="headingThree"  class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <h4 class="panel-title">24 Hour Support</h4>
+                        </div>
+                    </span>
+
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                          <div class="panel-body">
+                          <!-- tab content goes here -->
+                        <p>Contact : 96993 59603</p>
+                          </div>
+                        </div>
+                      </div>
+            	</div>
+             </div> 
+             
+   	 		 <div class="col-md-6">
+    			<div id="carousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+					<ol class="carousel-indicators">
+			  			<li data-target="#carousel" data-slide-to="0" class="active"></li>
+			    		<li data-target="#carousel" data-slide-to="1"></li>
+			    		<li data-target="#carousel" data-slide-to="2"></li>
+					</ol>
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+			    		<div class="item active">
+			    			<img src="members/Ajinkya.jpg" alt="First slide">
+			    		</div>
+			    		<div class="item">
+			    			<img src="members/Arpit.jpg" alt="Second slide">
+			    		</div>
+			    		<div class="item">
+			    			<img src="members/Omkar.jpg" alt="Third slide">
+			    		</div>
+					</div>
+				</div>
+			</div>
+             
+        </div>
+    </div>
+    
+    
+    <div id="explore">
+    	<div class="container">
+    		<h2>Explore</h2>
+    		<p>Click on the thumbnail to view the videos. Happy viewing. It will redirect you to <a id="anchor" href="www.youtube.com/TalkspaceD"> YouTube</a> for a seemigly smooth experience!</p>
+      			<div class="exploreFilter">  
+        			<ul class="Explore-nav wow fadeIn delay-02s">
+        				<li><a href="#" data-filter="*" class="current" >Featured Videos</a></li>
+        			</ul>
+       			</div> 
+    	</div>
+    	
+       		<div class="exploreContainer">
+            	<div class=" Explore-box appdevelopment">
+                	<a href="https://www.youtube.com/watch?v=WZ2HYyirt0Y"><img src="images/Teaser.png" alt=""></a>	
+                </div>
+                <div class="Explore-box webdesign">
+                	<a href="https://www.youtube.com/watch?v=36q7Z0oEGh0"><img src="images/Demonetisation Video.png" alt="Demonetisation"></a>	
+                </div>
+                <div class=" Explore-box appdevelopment">
+                	<a href="https://www.youtube.com/watch?v=eULWNWMXlCQ"><img src="images/KaranVGrover.png" alt=""></a>	
+                </div>
+                <div class=" Explore-box webdesign" >
+                	<a href="https://www.youtube.com/watch?v=6bPlnziy5lo"><img src="images/Raftaar.png" alt=""></a>	
+                </div>
+                <div class=" Explore-box graphicdesign">
+                	<a href="https://www.youtube.com/watch?v=I0ZTciOLUPc"><img src="images/Sakshi.png" alt=""></a>	
+                </div>
+                <div class=" Explore-box graphicdesign">
+                	<a href="#"></a>	
+                </div>
+    		</div>
+    	
+    </div>
+    
+    
+    <div id="blog">
+    	<div class="container">
+    		<h2>Featured <span>Blog</span> Posts</h2>
+    		<h3 id="more">Click <span><a id="anchor" href="https://talkspaced.wordpress.com/">here </a></span>to read more blog posts from Talkspaced.</h3>
+    		<hr>
+    		<div class="carousel slide" id="myCarousel">
+        		<div class="carousel-inner">
+           			<div class="item active">
+            		 	<ul class="thumbnails">
+                        	<li class="col-sm-4">
+    							<div class="fff">
+									<div class="thumbnail">
+										<a href="https://talkspaced.wordpress.com/2017/01/18/time-talks-mrs-aparna-bhat/"><img src="blogimg/timetalks.jpg" alt=""></a>
+									</div>
+									<div class="caption">
+										<h4 id="blogtext">Time Talks</h4>
+										<p id="blogtext">Mrs Aparna Bhat</p>
+										<a href="https://talkspaced.wordpress.com/2017/01/18/time-talks-mrs-aparna-bhat/" id="anchor" class="btn btn-mini" href="#">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+									</div>
+                           	 	</div>
+                        	</li>
+
+                        	<li class="col-sm-4">
+    							<div class="fff">
+									<div class="thumbnail">
+										<a href="https://talkspaced.wordpress.com/2017/01/18/technology-boon-or-bane-ms-saloni-mehta/"><img src="blogimg/technology.jpg" alt=""></a>
+									</div>
+									<div class="caption">
+										<h4 id="blogtext">Technology-Boon or Bane?</h4>
+										<p id="blogtext">Saloni Mehta</p>
+										<a href="https://talkspaced.wordpress.com/2017/01/18/technology-boon-or-bane-ms-saloni-mehta/" id="anchor" class="btn btn-mini" href="#">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+									</div>
+                           	 	</div>
+                        	</li>
+
+                        	<li class="col-sm-4">
+    							<div class="fff">
+									<div class="thumbnail">
+										<a href="https://talkspaced.wordpress.com/2017/01/18/student-suicide-mr-ayaan-hafiz/"><img src="blogimg/suicide.jpg" alt=""></a>
+									</div>
+									<div class="caption">
+										<h4 id="blogtext">Student Suicide</h4>
+										<p id="blogtext">Mr Ayaan Hafiz</p>
+										<a href="https://talkspaced.wordpress.com/2017/01/18/student-suicide-mr-ayaan-hafiz/" id="anchor" class="btn btn-mini" href="#">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+									</div>
+                           	 	</div>
+                        	</li>
+                        	
+                    	</ul>
+            		</div><!-- /Slide2 --> 
+        		</div>
+        
+       
+	   		<nav>
+				<ul class="control-box pager">
+					<li><a data-slide="prev" href="#myCarousel" class=""><i class="fa fa-chevron-left" aria-hidden="true"></i></a></li>
+					<li><a data-slide="next" href="#myCarousel" class=""><i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
+				</ul>
+			</nav>
+	   		<!-- /.control-box -->   
+                              
+   	 		</div><!-- /#myCarousel -->
+    	</div>
+    </div>
+    
+    
+    <div id="contact">
+    	<div class="container">
+    		<h2>Be A Speaker</h2>  
+    		<p>This is it! This is your chance to share your experience with the society. The
+			   chance to convey your story to the world! Yes you read that right. Register here
+			   and you might get the chance of doing your bit for the society, by motivating
+			   people at large.</p>
+    		<div class="col-md-6">
+    			<div class="contact-form">
+					<form action="beaspeaker.php" method="post">
+						<input id="name" name="name" type="text" placeholder="Name:" required>
+						<input id="email" name="email" type="text" placeholder="Email:" required>
+						<input id="subject" name="subject" type="subject" placeholder="Subject:" required>
+						<textarea id="message" name="message" placeholder="Your Message:" rows="5" required></textarea>
+						<br>
+						<button name="submit" id="submit" type="submit">Enquire</button>
+						<button type="button" id="submit" data-toggle="modal" data-target="#myModal">Terms And Condition</button>
+						<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        
+        <h4 class="modal-title">Talkspaced Terms And Conditions</h4>
+      </div>
+      <div class="modal-body">
+      <font color="red">
+        	1. Subject to these Terms, we grant to you a revocable, non-transferable, non-sub licensable, non-exclusive limited term right and license to access and use the Services. 
+        	<br>
+			2. You affirm that you have attained the legal age of majority as applicable in your geographical location, or possess legal parental or guardian consent if required and/or applicable, and are fully able and competent to enter into the terms, conditions, and obligations, set forth in this Agreement. You also affirm that you are a human; accounts signed up, accessed or used by "bot" or any other automated methods are not allowed.
+			<br>
+			3. You agree not to reproduce, copy, sell, resell, distribute or exploit any portion of the Service, use of the Service, or access to the Service without the express written permission from us. You also agree not to modify, reverse engineer, decompile or disassemble any part of the Services or Contents. You also agree not to create any derivative works of any Service and/or Content provided to you as a part of the Service.
+			<br>
+			4. You are solely responsible for your use of the Services, for any Content you post to the Services, and for any consequences thereof.
+			<br> 
+			5. You understand that the transmission of the Service and any related Content, including your Content, may travel unencrypted and involve (a) transmissions over various networks; and (b) changes to conform and adapt to technical requirements of connecting networks and related equipment.
+			<br>
+			6. The Services are provided on an "as is" and "as available" basis. We make no warranty and disclaim all responsibility and liability for the completeness, accuracy, availability, timeliness, security or reliability of the Services or any Content thereon.
+			<br>
+			7. While it is our endeavor to provide quality Services, we cannot provide assurance that any specific errors, software bugs, problems, or other issues raised by you will be rectified.
+			<br>
+			8. We reserve the right to levy a fee for the Service and define the payment terms for the same at any time. We also reserve the right to limit the Service availability to you in terms of maximum bandwidth usage, storage, number of users, and number of projects.
+			<br>
+			9. You expressly understand and agree that we and/or our subsidiaries, affiliates, directors, and employees shall not be liable to you for any direct, indirect, incidental, special, punitive, consequential or exemplary damages, including but not limited to, damages for loss of profits, goodwill, use, data, content or other intangible losses resulting from: (a) the use or the inability to use the Service; (b) unauthorized access to or alteration of your transmissions or Contents; (c) or any other matter relating to the service. This clause will apply even if we have been advised of the possibility of such damages.
+			<br>
+			10. You agree to indemnify us and our subsidiaries, affiliates, directors, and employees from any losses, expenses, costs or damages (including reasonable legal fees, expert fees, and other costs of litigation) suffered or incurred by us arising directly or indirectly from any claim, demand, or action based upon Content you submit, transmit, or otherwise make available through your use of the Services, your violation of this Agreement, or your violation of any rights of another.
+			<br>
+			11. The Service (excluding Content provided by you and other users), which includes but is not limited to the TALKSPACED website, its look & feel, user interface and all intellectual property rights in the Service are, and shall remain, our exclusive property. Nothing in the Terms gives you a right to use TALKSPACED name or any of their trademarks, service marks, get up, logos, literary works, artistic works, musical works, sound recordings, domain names, and other distinctive brand features.
+			<br>
+			12. Any Content that you may upload to the Service is subject to our Privacy Policy that governs our use of the Content. You affirm that you have read, understood and agreed to our Privacy Policy.
+			<br>
+			13. We reserve the right to change or modify any of the terms contained in this Agreement or any related policy governing the Service, at any time, by publishing the new agreement on this page. The last update date is always clearly indicated at the end of this page.
+			<br>
+			14. No refunds will be eligible to any individual if the event conducted is not up to the satisfaction or expectation of the participant.
+			<br>
+			15. We are not liable for anything that speaker/performers do or say.
+			<br>
+			16. In case event is cancelled or postponed, should this occur, we will attempt to contact you to inform you of the revised dates & if you are unable to attend the event then the amount will be refunded back to you.
+
+      </font>
+      </div>
+      <div class="modal-footer">
+        <button type="button" id="submit" data-dismiss="modal">I Agree</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+					</form>
+				</div>  
+			</div>	
+			<div class="col-md-6">
+				<div class="image">
+					<img src="images/stage.jpg" class="img-responsive">
+				</div>
+			</div>
+    	</div>
+    	
+		<iframe width="100%;" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" style="pointer-events: none; margin-top: 30px;" src="https://wego.here.com/directions/mix//Talk-Spaced,-Chembur,-Mumbai,-India-400071:e-eyJuYW1lIjoiVGFsayBTcGFjZWQiLCJhZGRyZXNzIjoiQ2hlbWJ1ciwgTXVtYmFpLCBJbmRpYSA0MDAwNzEiLCJsYXRpdHVkZSI6MTkuMDUzNjgwNzU1NTIyLCJsb25naXR1ZGUiOjcyLjg5OTc4MDI3MzQzNywicHJvdmlkZXJOYW1lIjoiZmFjZWJvb2siLCJwcm92aWRlcklkIjoxNjkzMjUxNDM1MjE1NzV9?map=19.05273,72.90211,17,normal&fb_locale=en_US&msg=390%20A%20B%20Math%20Road"></iframe>
+		
+    </div>
+    
+    
+    <div id="subscribe">
+    	<div class="container">
+    	    <h2>Subscribe To Us</h2>
+    	    <p>Subscribe to Talk Spaced to stay up to date about news and all the updates.</p>
+			<div class="col-md-8 col-md-offset-2">
+
+             	<form action="newsletter.php" method="POST">
+              		<div class="input-group">
+                 		<input class="btn btn-lg" name="email" id="email" type="email" placeholder="Enter your email address" required>
+                 		<button class="btn btn-info btn-lg" type="submit">Subscribe</button>
+             		 </div>
+            	</form>
+
+			</div>  
+    	</div>
+    	<br>
+    	<br>
+    
+    	
+   			<center><p class="text-muted">All Rights Reserved. Developed By:   <a id="anchor" href="#">Darsh Selarka</a></p></center>
+  		
+    </div>
+    
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script src="js/jquery.isotope.js"></script>
+    
+    <script src="js/jquery.scrollUp.min.js"></script>
+    
+    
+	<script type="text/javascript">
+	
+	$('a[href^="#"]').on('click', function(event) {
+    	var target = $(this.getAttribute('href'));
+    	if( target.length ) {
+       		event.preventDefault();
+        	$('html, body').stop().animate({
+            	scrollTop: target.offset().top
+        	}, 1000);
+    	}
+	});
+
+	</script>
+    
+    
+    <!-- Navbar Change on Scroll -->
+	<script type="text/javascript">
+		$(function(){
+ 		var shrinkHeader = 100;
+  		$(window).scroll(function() {
+    		var scroll = getCurrentScroll();
+      		if ( scroll >= shrinkHeader ) {
+           		$('.navbar-default').addClass('shrink');
+        	}
+       		else {
+            	$('.navbar-default').removeClass('shrink');
+        	}
+  		});
+		function getCurrentScroll() {
+    		return window.pageYOffset || document.documentElement.scrollTop;
+    	}
+	});
+
+	</script>    
+
+
+	<!-- Portfolio Isotope Settings -->
+	<script type="text/javascript">
+
+	$(window).load(function(){
+  
+  
+ 	 var $container = $('.portfolioContainer'),
+     	$body = $('body'),
+     	colW = 375,
+      	columns = null;
+
+  
+  	$container.isotope({
+    // disable window resizing
+    	resizable: true,
+   	 	masonry: {
+        columnWidth: colW
+    	}
+  	});
+  
+  	$(window).smartresize(function(){
+    // check if columns has changed
+    	var currentColumns = Math.floor( ( $body.width() -30 ) / colW );
+    	if ( currentColumns !== columns ) {
+      	// set new column count
+      	columns = currentColumns;
+      	// apply width to container manually, then trigger relayout
+      	$container.width( columns * colW )
+        	.isotope('reLayout');
+    	}
+    
+  	}).smartresize(); // trigger resize to set container width
+  	$('.portfolioFilter a').click(function(){
+        	$('.portfolioFilter .current').removeClass('current');
+        	$(this).addClass('current');
+ 
+        	var selector = $(this).attr('data-filter');
+        	$container.isotope({
+			
+            filter: selector,
+         });
+        	 return false;
+   	 	});
+  
+	});
+
+	</script>
+	
+	
+	<!-- Scroll To Top Settings -->
+    <script type="text/javascript">
+    
+    $(function () {
+  		$.scrollUp({
+    		scrollName: 'scrollUp', // Element ID
+    		topDistance: '300', // Distance from top before showing element (px)
+    		topSpeed: 600, // Speed back to top (ms)
+    		animation: 'fade', // Fade, slide, none
+    		animationInSpeed: 200, // Animation in speed (ms)
+    		animationOutSpeed: 200, // Animation out speed (ms)
+    		activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+    		scrollImg: true,
+  		});
+	});
+    
+    </script>
+
+	
+</body>
+
+</html>
